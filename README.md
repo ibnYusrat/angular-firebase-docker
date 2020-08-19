@@ -9,7 +9,7 @@ It can be used with GitLab CI or even for your local development.
 
 To run your Angular project, you can simply navigate to your project directory and write:
 
-`docker run --rm --name angular_cli -v ``pwd``:/app angular-firebase:latest --network host ng serve`
+``docker run --rm --name angular_cli -v `pwd`:/app angular-firebase:latest --network host ng serve``
 
 And then simply nagivate to your browser at http://localhost:4200.
 
